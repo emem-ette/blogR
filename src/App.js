@@ -109,7 +109,7 @@ return (
             }} />
             <div className='abegImg'>
               <img src='./images/illustration-phones.svg' alt='illustratorPhoneDesktop' className='floating abegImg' id='desktopImg' style={{
-                width: "50%", height: "700px", position: 'relative', bottom: '700px', left: '50px'
+                width: "50%", height: "700px", position: 'relative', bottom: '600px', left: '50px'
               }} />
             </div>
 

@@ -28,11 +28,9 @@ body {
   border-bottom-left-radius: 100px;
 
 }
-
 .navbar-1 {
-  display: none;
+display: none;
 }
-
 .logo_navbar {
 
   padding: 10px 0;
@@ -63,7 +61,7 @@ nav ul li {
 
 .navbar {
   display: block;
-  padding: 50px;
+  padding: 50px ;
   color: #fff;
   font-size: 20px;
 }
@@ -114,7 +112,7 @@ input[type=checkbox]:checked~.menu {
   position: relative;
   left: 100px;
   bottom: 25px;
-
+ 
 }
 
 .dropdown {
@@ -538,99 +536,91 @@ a:hover {
     background-size: cover;
     border-bottom-left-radius: 100px;
   }
+.navbar {
+  display: none;
+}
+.navbar-1 {
+  display: block;
+}
+.navbar-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
 
-  .navbar {
-    display: none;
-  }
-
-  .navbar-1 {
-    display: block;
-  }
-
-  .navbar-1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-
-  }
-
-  .nav-links-1 ul li a {
+.nav-links-1 ul li a {
     text-decoration: none;
     font-family: 'Overpass', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: hsl(207, 13%, 34%)
-  }
+  
+}
+/* NAVBAR MENU */
+.menu-1 {
+  display: flex;
+  gap: 1em;
+ 
+}
 
-  /* NAVBAR MENU */
-  .menu-1 {
-    display: flex;
-    gap: 1em;
+.menu-1 li:hover {
+  cursor: pointer;
+  color:  hsl(355, 100%, 74%);
+  transition: 0.3s ease;
+}
+.menu-1 li {
+  padding: 5px 14px;
+}
 
-  }
+/* DROPDOWN MENU */
+.services-1 {
+  position: relative; 
+}
 
-  .menu-1 li:hover {
-    cursor: pointer;
-    color: hsl(355, 100%, 74%);
-    transition: 0.3s ease;
-  }
+.dropdown-1{
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
 
-  .menu-1 li {
-    padding: 5px 14px;
-  }
+.dropdown-1 li + li {
+  margin-top: 10px;
+}
 
-  /* DROPDOWN MENU */
-  .services-1 {
-    position: relative;
-  }
+.dropdown-1 li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
 
-  .dropdown-1 {
-    background-color: rgb(1, 139, 139);
-    padding: 1em 0;
-    position: absolute;
-    /*WITH RESPECT TO PARENT*/
-    display: none;
-    border-radius: 8px;
-    top: 35px;
-  }
+.dropdown-1 li:hover {
+  background-color: #4c9e9e;
+}
+.services-1:hover .dropdown {
+  display: block;
+}
 
-  .dropdown-1 li+li {
-    margin-top: 10px;
-  }
-
-  .dropdown-1 li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
-  }
-
-  .dropdown-1 li:hover {
-    background-color: #4c9e9e;
-  }
-
-  .services-1:hover .dropdown {
-    display: block;
-  }
-
-  .action_btn-1 {
-    border: 3px solid white;
-    border-radius: 20px;
-    background-color: white;
-    padding: 8px 20px;
-    font-family: 'Overpass', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: hsl(355, 100%, 74%);
-  }
-
-  .special_link a:hover {
-    border-color: inherit;
-    cursor: pointer;
-    background-color: transparent;
-    color: white;
-  }
-
+.action_btn-1 {
+  border: 3px solid white;
+  border-radius: 20px;
+ background-color: white;
+  padding: 8px 20px;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(355, 100%, 74%);
+}
+.special_link a:hover {
+  border-color: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
   .content-container {
     padding: 50px 0;
     position: relative;
@@ -686,16 +676,13 @@ a:hover {
     font-weight: 600;
 
   }
-
   .btn_1:hover {
     background-color: transparent;
     color: white;
   }
-
   .btn_1 a:hover {
     color: white;
   }
-
   .btn_2 {
     border: 3px solid white;
     background-color: transparent;
@@ -711,15 +698,13 @@ a:hover {
     font-size: 16px;
     font-weight: 600;
   }
-
   .btn_2:hover {
     background-color: white;
   }
-
   .btn_2 a:hover {
     color: hsl(355, 100%, 74%);
   }
-
+  
   #future {
     padding: 80px 0;
     background-color: white
@@ -848,7 +833,7 @@ a:hover {
     background-color: rebeccapurple;
     display: flex;
   }*/
-  /*.abegImg  img{
+/*.abegImg  img{
   width: 50%;
     height: 800px;
   position: relative;
@@ -869,21 +854,21 @@ a:hover {
   }*/
 
   .box-4 {
-    width: 50%;
+    width: 35%;
     height: 500px;
     position: relative;
-    left: 300px;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 0;
+    left: 280px;
+   
 
   }
 
   .box-4-content {
     float: right;
+    
   }
 
   .box-4-content h2 {
-    min-width: 500px;
+    min-width: 400px;
     text-align: center;
     margin: 0 auto;
     color: white;
@@ -895,7 +880,7 @@ a:hover {
   }
 
   .box-4-content p {
-    min-width: 600px;
+    min-width: 300px;
     text-align: center;
     margin: 0 auto;
     color: white;
@@ -910,40 +895,37 @@ a:hover {
     padding: 50px 0;
     background-color: white;
   }
-
   #flexContainer {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+  justify-content: space-evenly;
+  flex-direction: row;
   }
-
   .box-5 {
     width: 100%;
     height: 400px;
     background-color: transparent;
   }
-
+  
   .box-6 {
     width: 100%;
     height: 800px;
     display: flex;
     flex-direction: column;
   }
-
+  
   .header {
     padding: 30px 0;
   }
-
+  
   .paraGraph {
     padding: 30px 0;
   }
-
   #footer {
     padding: 50px 0;
     background-color: hsl(240, 10%, 16%);
     border-top-right-radius: 100px;
   }
-
+  
   .logo-1 {
     float: left;
     padding: 70px;
@@ -955,29 +937,27 @@ a:hover {
     position: relative;
     bottom: 40px;
   }
-
   .all-links {
     display: flex;
     justify-content: space-around;
   }
-
   .links {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
+  
   .links ul {
     padding: 0;
     margin: 0;
   }
-
+  
   .links ul li {
     list-style: none;
     padding: 8px 0;
     margin: 8px 0;
   }
-
+  
   .links ul li a {
     text-decoration: none;
     line-height: 1.5;
@@ -986,15 +966,15 @@ a:hover {
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
   }
-
+  
   .links ul li a:hover {
     color: hsl(355, 100%, 74%);
   }
-
+  
   .top {
     padding: 30px 0;
   }
-
+  
   .special {
     padding: 0px 0;
     font-size: 20px;
@@ -1002,22 +982,18 @@ a:hover {
     font-family: 'Overpass', sans-serif;
     font-weight: 600;
   }
-
   .special-1 {
     position: relative;
     bottom: 20px;
   }
-
   .special-2 {
     position: relative;
     bottom: 40px;
   }
-
   .top-1 {
     position: relative;
     bottom: 30px;
   }
-
   .top-2 {
     position: relative;
     bottom: 50px;
